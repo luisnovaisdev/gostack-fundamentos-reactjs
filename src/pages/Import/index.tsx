@@ -33,6 +33,7 @@ const Import: React.FC = () => {
         console.log(err.response.error);
       }
     });
+    history.push('/');
   }
 
   function submitFile(files: File[]): void {
